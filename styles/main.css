@@ -1,17 +1,21 @@
 .inter-600 {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: normal;
+    font-weight: 500;
     font-style: normal;
     font-variation-settings:
         "slnt" 0;
 }
 
 body {
-    padding: 25px;
+    padding: 0;
     margin: 0;
     height: 100%;
     width: 100%;
+}
+
+body * {
+    margin: 25px;
 }
 
 .primary-button {
@@ -20,7 +24,7 @@ body {
     border: none;
     border-radius: 10px;
     background-color: #FF5599;
-    box-shadow: inset -20px -20px 20px #ff3584;
+    box-shadow: inset -5px -15px 30px #fa0261;
     color: white;
 }
 
@@ -28,7 +32,7 @@ body {
 
 main {
     background-color: #FDEBEA;
-    border-radius: 10px;
+    border-radius: 5px;
     display: flex;
     justify-content: center;
     height: 300px;
@@ -40,7 +44,7 @@ main section {
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    gap: 15px;
+    gap: 10px;
 }
 
 main section * {
@@ -51,22 +55,26 @@ main section * {
 
 .subscribe-title {
     display: inline;
-    font-size: xx-large;
+    font-size: 3cap;
     font-weight: 600;
+}
+
+.subscribe-msg {
+    font-size: small;
 }
 
 .subscribe-email {
     padding: 5px 10px;
-    width: 325px;
-    height: 20px;
-    border: 1px solid rgb(215, 215, 215);
-    border-radius: 2px;
+    width: 350px;
+    height: 25px;
+    border: 1.5px solid rgb(215, 215, 215);
+    border-radius: 3px;
+    margin: 5px 0 10px !important;
 }
 
 /* footer */
 
 footer {
-    font-size: small;
     text-align: center;
-    margin-top: 50px;
+    font-size: small;
 }
