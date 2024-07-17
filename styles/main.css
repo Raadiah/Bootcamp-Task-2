@@ -4,6 +4,69 @@
     font-weight: normal;
     font-style: normal;
     font-variation-settings:
-      "slnt" 0;
-  }
-  
+        "slnt" 0;
+}
+
+body {
+    padding: 25px;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.primary-button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FF5599;
+    box-shadow: inset -20px -20px 20px #ff3584;
+    color: white;
+}
+
+/* main section */
+
+main {
+    background-color: #FDEBEA;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+main section {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 15px;
+}
+
+main section * {
+    margin: 0;
+}
+
+/* subscription section */
+
+.subscribe-title {
+    display: inline;
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+.subscribe-email {
+    padding: 5px 10px;
+    width: 325px;
+    height: 20px;
+    border: 1px solid rgb(215, 215, 215);
+    border-radius: 2px;
+}
+
+/* footer */
+
+footer {
+    font-size: small;
+    text-align: center;
+    margin-top: 50px;
+}
